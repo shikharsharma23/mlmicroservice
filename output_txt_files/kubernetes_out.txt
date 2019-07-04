@@ -1,0 +1,14 @@
+master ● ?  sudo ./run_kubernetes.sh                                         ✔
+Password:
+deployment.apps "mlmicro" created
+NAME                      READY     STATUS              RESTARTS   AGE
+mlmicro-c4bb46659-j7k25   0/1       ContainerCreating   0          1s
+service "mlmicro" exposed
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
