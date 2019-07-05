@@ -11,6 +11,7 @@ dockerpath=shikhar230/mlmicro
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username shikhar230
 docker tag 7367add2abe7 $dockerpath
 
 # Step 3:
